@@ -45,7 +45,7 @@ def twoSum( nums: List[int], target: int) -> List[int]:
     
 #solution 2 
 '''
-use hash map  and store remiender and index.
+use hash map  and store remiender and index..
 '''
 def twoSum( nums: List[int], target: int) -> List[int]:
 
@@ -58,8 +58,3 @@ def twoSum( nums: List[int], target: int) -> List[int]:
         if compliment in store:
             return [store[compliment], i]
         store[nums[i]] = i
-
-
-
-
-
